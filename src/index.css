@@ -100,10 +100,10 @@ header,
 .project {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
 }
 
 header {
+  justify-content: space-evenly;
   max-width: 90%;
   min-width: 80%;
 }
@@ -240,6 +240,11 @@ header button {
   border: 1px solid #004831;
   visibility: hidden;
   animation: showText 1s 13s forwards;
+  transition: 0.3s;
+}
+
+header button:hover {
+  background-color: transparent;
 }
 
 /* @keyframes gearFall {
@@ -301,12 +306,14 @@ header button {
   gap: 5rem;
 }
 .project {
+  width: 100%;
   gap: 30px;
   position: relative;
+  justify-content: space-between;
 }
 
 .project h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .project p {
@@ -414,16 +421,24 @@ header button {
     border-radius: 20px;
     height: 18rem;
   }
-  /* .slider,
-  .sliderReverse {
-    animation-timeline: view(100% 0%);
-  } */
 }
 
 /* md */
 @media (max-width: 768px) {
   .container {
     max-width: 640px;
+  }
+  #projects {
+    gap: 3rem;
+  }
+  .project img {
+    height: 16rem;
+  }
+  .project h2 {
+    font-size: 1.6rem;
+  }
+  .project p {
+    font-size: 0.9rem;
   }
 }
 
