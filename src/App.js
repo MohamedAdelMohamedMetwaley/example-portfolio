@@ -149,6 +149,7 @@ function Project({ name, image, imageOnRight = true, children }) {
       distance: "100px",
       origin: `${imageOnRight ? "right" : "left"}`,
       viewFactor: onMobile ? 0.3 : 0.5,
+      reset: true,
     });
   }, [imageOnRight, sliderClass, onMobile]);
 
