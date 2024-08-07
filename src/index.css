@@ -43,7 +43,7 @@ nav {
   justify-content: center;
   width: max-content;
   position: sticky;
-  top: 20px;
+  top: 10px;
   visibility: hidden;
   animation: show 1s 2s 1 forwards;
   height: 0px;

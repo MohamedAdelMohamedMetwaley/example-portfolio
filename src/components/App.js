@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import Header from "./Header";
 import Projects from "./Projects";
 import Skills from "./Skills";
-import Contact from "./Contact";
+import Contact from "./Contact/Contact";
 
 export default function App() {
   const homeRef = useRef();
