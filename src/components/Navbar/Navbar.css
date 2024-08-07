@@ -25,3 +25,9 @@ nav button:hover {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
 }
+
+@media (max-width: 640px) {
+  nav button {
+    padding: 16px 16px 30px;
+  }
+}
