@@ -1,8 +1,8 @@
 import { useRef } from "react";
-import Navbar from "./Navbar";
+import Navbar from "./Navbar/Navbar";
 import Header from "./Header";
-import Projects from "./Projects";
-import Skills from "./Skills";
+import Projects from "./Projects/Projects";
+import Skills from "./Skills/Skills";
 import Contact from "./Contact/Contact";
 
 export default function App() {
@@ -29,8 +29,8 @@ export default function App() {
         projectsRef={projectsRef}
       />
       <Projects refProps={projectsRef} />
-      <Skills />
-      <Contact />
+      <Skills refProps={skillsRef} />
+      <Contact refProps={contactRef} />
     </>
   );
 }

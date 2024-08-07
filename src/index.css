@@ -37,36 +37,9 @@ body {
 }
 
 /* ------------ Navbar -------------- */
-
 nav {
-  display: flex;
-  justify-content: center;
-  width: max-content;
-  position: sticky;
-  top: 10px;
-  visibility: hidden;
   animation: show 1s 2s 1 forwards;
-  height: 0px;
-  z-index: 3;
 }
-
-nav button {
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
-  text-decoration: none;
-  margin: 1px;
-  cursor: pointer;
-  padding: 20px 20px 30px;
-  font-family: var(--secondary-font);
-  transition: 0.3s;
-}
-
-nav button:hover {
-  transform: scale(1.05);
-  border-color: var(--accent-color);
-  background-color: var(--accent-color);
-}
-
 .gear {
   position: absolute;
   height: 45px;

@@ -1,7 +1,7 @@
 import "./Contact.css";
 import Swal from "sweetalert2";
 
-function Contact() {
+function Contact({ refProps }) {
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -32,7 +32,7 @@ function Contact() {
   };
 
   return (
-    <section className="contact">
+    <section ref={refProps} className="contact">
       <form onSubmit={onSubmit}>
         <h2>Contact Me</h2>
         <div className="input-box">

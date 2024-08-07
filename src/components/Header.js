@@ -14,7 +14,7 @@ export default function Header({ refProps, onScroll, projectsRef }) {
         <button onClick={() => onScroll(projectsRef)}>See my work</button>
       </div>
       <div className="image-container">
-        <img src="./images/placeholderP.png" alt="portfolio_image" />
+        <img src="./images/placeholderP.webp" alt="portfolio_image" />
       </div>
     </header>
   );

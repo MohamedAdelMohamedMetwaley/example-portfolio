@@ -1,3 +1,5 @@
+import "./Navbar.css";
+
 export default function Navbar({
   onScroll,
   homeRef,
