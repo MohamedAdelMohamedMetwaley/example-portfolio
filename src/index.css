@@ -177,7 +177,7 @@ header button {
   border-radius: 20px;
   background-color: var(--accent-color);
   font-family: var(--secondary-font);
-  border: 1px solid #004831;
+  border: 1px solid #00483170;
   visibility: hidden;
   animation: showText 1s 12s forwards;
   transition: 0.3s;
@@ -236,39 +236,7 @@ header button:hover {
 }
 
 /* --------- Projects ---------------- */
-#projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 60%;
-  overflow: clip;
-  gap: 3rem;
-}
-.project {
-  width: 100%;
-  gap: 30px;
-  position: relative;
-  justify-content: space-between;
-}
 
-.project div {
-  margin-left: 1rem;
-}
-
-.project h2 {
-  font-size: 1.8rem;
-}
-
-.project p {
-  margin-top: 1.2rem;
-  font-family: var(--secondary-font);
-}
-
-.project img {
-  border-radius: 20px;
-  height: 12rem;
-}
 /* .projectsGear {
   animation: gearRotateOnScroll both;
   animation-timeline: view();
@@ -278,14 +246,14 @@ header button:hover {
   width: 45px;
 } */
 
-@keyframes gearRotateOnScroll {
+/* @keyframes gearRotateOnScroll {
   from {
     rotate: 0deg;
   }
   to {
     rotate: 1080deg;
   }
-}
+} */
 
 /* @keyframes sliderAnimation {
   0% {
@@ -326,14 +294,14 @@ header button:hover {
     animation: none;
     white-space: unset;
     width: 100%;
-    animation: showText 1s 10s 1 forwards;
+    animation: showText 1s 9s 1 forwards;
   }
   #intro::before {
-    animation: show 0.5s 4s 1 forwards, gearRotate 1.5s 5.5s 2 linear,
-      show 1s 9s 1 reverse forwards;
+    animation: show 0.5s 3s 1 forwards, gearRotate 1.5s 4.5s 2 linear,
+      show 1s 8s 1 reverse forwards;
   }
   header button {
-    animation-delay: 11s;
+    animation-delay: 10s;
   }
 }
 
@@ -357,35 +325,12 @@ header button:hover {
   .image-container {
     margin-top: 120px;
   }
-  #projects {
-    width: 90%;
-    margin-top: 8rem;
-  }
-  .project {
-    flex-direction: column;
-  }
-  .project img {
-    border-radius: 20px;
-    height: 18rem;
-  }
 }
 
 /* md */
 @media (max-width: 768px) {
   .container {
     max-width: 640px;
-  }
-  #projects {
-    gap: 3rem;
-  }
-  .project img {
-    height: 16rem;
-  }
-  .project h2 {
-    font-size: 1.6rem;
-  }
-  .project p {
-    font-size: 0.9rem;
   }
 }
 
@@ -400,7 +345,7 @@ header button:hover {
   }
 
   #intro::before {
-    top: 0.5rem;
+    top: 0.2rem;
     left: -2.5rem;
     background-size: 2rem;
     width: 2rem;
