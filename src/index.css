@@ -155,7 +155,7 @@ header h1 {
   left: -3.5rem;
   visibility: hidden;
   animation: show 0.5s 3s 1 forwards, gearRotate 1.5s 4.5s 5 linear,
-    show 1s 12.5s 1 reverse forwards;
+    show 0.5s 12.5s 1 reverse forwards;
 }
 
 #description {
@@ -178,6 +178,7 @@ header button {
   background-color: var(--accent-color);
   font-family: var(--secondary-font);
   border: 1px solid #00483170;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   visibility: hidden;
   animation: showText 1s 12s forwards;
   transition: 0.3s;
