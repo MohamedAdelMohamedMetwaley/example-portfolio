@@ -28,8 +28,8 @@ export default function App() {
         onScroll={onScroll}
         projectsRef={projectsRef}
       />
-      <Skills refProps={skillsRef} />
       <Projects refProps={projectsRef} />
+      <Skills refProps={skillsRef} />
       <Contact refProps={contactRef} />
     </>
   );
