@@ -2,7 +2,7 @@
   --primary-color: #e8e8e8;
   --secondary-color: #373737;
   --accent-color: #009063;
-  --additional-color: #cdcadd;
+  --heavy-accent: #004831;
   --main-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -110,6 +110,26 @@ header div {
   bottom: 0;
   transform: translateX(-50%);
 }
+
+.image-container div {
+  display: flex;
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.image-container div > a {
+  color: var(--heavy-accent);
+  transition: 0.3s;
+}
+
+.image-container div > a:hover {
+  transform: translateY(-5px) scale(1.1);
+}
+
 .textContainer {
   display: inline-block;
 }
@@ -132,7 +152,7 @@ header div {
 header h1 {
   position: relative;
   font-size: 3.75em;
-  background: linear-gradient(to right, black, #004831);
+  background: linear-gradient(to right, black, var(--heavy-accent));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
