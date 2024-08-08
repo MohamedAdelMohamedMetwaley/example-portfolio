@@ -1,5 +1,6 @@
 import {
   faFacebook,
+  faFacebookSquare,
   faLinkedin,
   faWhatsapp,
   faWhatsappSquare,
@@ -28,7 +29,7 @@ export default function Header({ refProps, onScroll, projectsRef }) {
             <FontAwesomeIcon icon={faLinkedin} size="2x" />
           </a>
           <a href="https://www.facebook.com/profile.php?id=100090383086915">
-            <FontAwesomeIcon icon={faFacebook} size="2x" />
+            <FontAwesomeIcon icon={faFacebookSquare} size="2x" />
           </a>
           <a href="https://wa.me/201067072993">
             <FontAwesomeIcon icon={faWhatsappSquare} size="2x" />

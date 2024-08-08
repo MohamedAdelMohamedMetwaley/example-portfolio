@@ -122,12 +122,12 @@ header div {
 }
 
 .image-container div > a {
-  color: var(--heavy-accent);
+  color: var(--secondary-color);
   transition: 0.3s;
 }
 
 .image-container div > a:hover {
-  transform: translateY(-5px) scale(1.1);
+  transform: scale(1.1);
 }
 
 .textContainer {
