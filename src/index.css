@@ -95,16 +95,17 @@ header div {
   margin: 0;
   height: 250px;
   width: 300px;
-  background-color: var(--secondary-color);
+  /* background-color: var(--secondary-color); */
   border-radius: 20px;
-  /* box-shadow: var(--accent-color) 17px 15px 20px -5px; */
-  box-shadow: var(--accent-color) 8px 8px 20px -5px;
+  /* box-shadow: var(--accent-color) 8px 8px 20px -5px; */
 }
 
 .image-container img {
   object-fit: cover;
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 8px 8px 20px;
   position: absolute;
   left: 50%;
   bottom: 0;
@@ -302,8 +303,8 @@ header button:hover {
 /* 2xl */
 @media (max-width: 1536px) {
   .container {
-    max-width: 1280px;
-    /* max-width: 100%; */
+    /* max-width: 1280px; */
+    max-width: 100%;
   }
 }
 
