@@ -23,13 +23,13 @@ export default function Header({ refProps, onScroll, projectsRef }) {
       <div className="image-container">
         <img src="./images/placeholderP.webp" alt="portfolio_image" />
         <div>
-          <a href="https://www.linkedin.com/in/adham-ehab-2003birth?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+          <a href="#">
             <FontAwesomeIcon icon={faLinkedin} size="2x" />
           </a>
-          <a href="https://www.facebook.com/profile.php?id=100090383086915">
+          <a href="#">
             <FontAwesomeIcon icon={faFacebookSquare} size="2x" />
           </a>
-          <a href="https://wa.me/201067072993">
+          <a href="#">
             <FontAwesomeIcon icon={faWhatsappSquare} size="2x" />
           </a>
         </div>
