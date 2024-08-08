@@ -6,7 +6,7 @@ function Contact({ refProps }) {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "e2bd4a60-5090-45d9-a63e-05902c9847d9");
+    formData.append("access_key", "f4e0f9fe-b1a4-49a2-a9c0-24f223471d6c");
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -30,7 +30,7 @@ function Contact({ refProps }) {
     } else {
       Swal.fire({
         title: "Ops..",
-        text: "There seems to be a problem sending the message, please try again later or send it here instead adhamehab777.osman@gmail.com",
+        text: "There seems to be a problem sending the message, please try again later or send it here instead example@gmail.com",
         icon: "error",
       });
     }
