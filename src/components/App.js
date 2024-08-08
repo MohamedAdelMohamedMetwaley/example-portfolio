@@ -14,6 +14,7 @@ export default function App() {
   const onScroll = (ref) => {
     ref.current.scrollIntoView({ behavior: "smooth" });
   };
+
   return (
     <>
       <Navbar

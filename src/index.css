@@ -16,7 +16,7 @@
   margin: 0;
 }
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
 }
 #root {
   position: relative;
@@ -127,7 +127,8 @@ header div {
 }
 
 .image-container div > a:hover {
-  transform: scale(1.1);
+  transform: translateY(-3px);
+  color: var(--heavy-accent);
 }
 
 .textContainer {
