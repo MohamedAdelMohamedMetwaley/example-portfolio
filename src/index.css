@@ -38,14 +38,14 @@ body {
 
 /* ------------ Navbar -------------- */
 nav {
-  animation: show 1s 2s 1 forwards;
+  animation: show 1s 1s 1 forwards;
 }
 .gear {
   position: absolute;
   height: 45px;
   width: 45px;
   top: 20px;
-  animation: show 1s 1s 1 reverse forwards, gearRotate 1s 0s 3 linear;
+  animation: show 1s 1 reverse forwards, gearRotate 1s 0s 3 linear;
 }
 
 @keyframes show {
@@ -144,7 +144,7 @@ header div {
   overflow: hidden;
   visibility: hidden;
   animation: typing var(--animation-duration) var(--delay) var(--steps) forwards,
-    cursor 0.3s 5s step-end var(--cursor-steps) alternate;
+    cursor 0.3s 3s step-end var(--cursor-steps) alternate;
 }
 
 #intro {
@@ -159,8 +159,8 @@ header h1 {
   -webkit-background-clip: text;
   background-clip: text;
   --steps: steps(16);
-  --delay: 5s;
-  --animation-duration: 2s;
+  --delay: 3.5s;
+  --animation-duration: 1s;
   --cursor-steps: 9;
 }
 
@@ -176,8 +176,8 @@ header h1 {
   top: 1.5rem;
   left: -3.5rem;
   visibility: hidden;
-  animation: show 0.5s 3s 1 forwards, gearRotate 1.5s 4.5s 5 linear,
-    show 0.5s 12.5s 1 reverse forwards;
+  animation: show 0.5s 2s 1 forwards, gearRotate 1.5s 3.5s 5 linear,
+    show 0.5s 10s 1 reverse forwards;
 }
 
 #description {
@@ -185,8 +185,8 @@ header h1 {
   font-size: 1.25rem;
   margin-top: 1.25rem;
   font-family: var(--secondary-font);
-  --delay: 8s;
-  --animation-duration: 3s;
+  --delay: 6s;
+  --animation-duration: 2s;
   --steps: steps(79);
   --cursor-steps: 25;
 }
@@ -202,7 +202,7 @@ header button {
   border: 1px solid #00483170;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   visibility: hidden;
-  animation: showText 1s 12s forwards;
+  animation: showText 1s 8s forwards;
   transition: 0.3s;
 }
 
@@ -317,14 +317,14 @@ header button:hover {
     animation: none;
     white-space: unset;
     width: 100%;
-    animation: showText 1s 9s 1 forwards;
+    animation: showText 1s 5s 1 forwards;
   }
   #intro::before {
-    animation: show 0.5s 3s 1 forwards, gearRotate 1.5s 4.5s 2 linear,
-      show 1s 8s 1 reverse forwards;
+    animation: show 0.5s 2s 1 forwards, gearRotate 1.5s 3s 4 linear,
+      show 1s 7s reverse forwards;
   }
   header button {
-    animation-delay: 10s;
+    animation-delay: 6s;
   }
 }
 
