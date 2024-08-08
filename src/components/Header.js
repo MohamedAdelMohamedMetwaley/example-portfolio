@@ -1,8 +1,6 @@
 import {
-  faFacebook,
   faFacebookSquare,
   faLinkedin,
-  faWhatsapp,
   faWhatsappSquare,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
